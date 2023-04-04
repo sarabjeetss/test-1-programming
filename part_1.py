@@ -1,14 +1,14 @@
-# Get inputs from the user
-month = int(input("Enter the month in numeric form: "))
-day = int(input("Enter the day in numeric form: "))
-year = input("Enter the year as two numerical digits (for example: 98, 20, 21): ")
+# Take input from the user
+Month = int(input("Enter the month in numeric form:\n "))
+Day = int(input("Enter the day in numeric form:\n "))
+Year = input("Enter the year as two numerical digits: \n ")
 
-# Check for valid input
-if month < 1 or month > 12:
+# check inputs
+if Month < 1 or Month > 12:
     print("Error: Invalid Month Input")
-elif day < 1 or day > 31:
+elif Day < 1 or Day > 31:
     print("Error: Invalid Day Input")
-elif year.isdigit() == False or len(year) != 2:
+elif Year.isdigit() == False or len(Year) != 2:
     print("Error: Invalid Year Input")
 else:
-    print(f"{month}/{day}/{year}: Success: Congratulations! you entered the correct date.")
+    print(f"{Month}/{Day}/{Year}: Success: Congratulations! you entered the correct date.")
