@@ -11,7 +11,7 @@ if color1 not in (RED, BLUE, YELLOW):
 
 # if color2 in not in the option
 elif color2 not in (RED, BLUE, YELLOW):
-    print("Error: Invalid Color1")
+    print("Error: Invalid Color2")
         
 # check if two colors are same
 elif color1==color2:
